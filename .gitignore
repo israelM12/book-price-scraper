@@ -1,0 +1,16 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Salidas generadas al correr el scraper (excepto la muestra)
+precios.xlsx
+*.xlsx
+!sample_output/*.xlsx
+
+# Sistema
+.DS_Store
